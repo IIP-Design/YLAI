@@ -1,0 +1,41 @@
+{
+    "config": {
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress",
+                "type": "webroot",
+                "version": "4.5",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.5.zip"
+                },
+                "require" : {
+                    "fancyguy/webroot-installer": "1.1.0"
+                }
+            }
+        },
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "require": {
+            "wordpress": "4.5",
+            "fancyguy/webroot-installer": "1.1.0",
+            "koodimonni/composer-dropin-installer": "0.2.4",
+            "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1"
+        },
+    "extra": {
+        "dropin-paths": {
+            "wp-content/": [
+                "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
+            ]
+        },
+        "webroot-dir": "wp",
+        "webroot-package": "wordpress"
+    }
+}
