@@ -4,25 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b8b6bae7343ea5b501c005085cbc2181",
-    "content-hash": "2513ca9ec90780773a86625c2198466f",
+    "hash": "72742a66547ae4f24682ecb9c28d0933",
+    "content-hash": "293593c6b69222b7f19cf3adae4d2ae0",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.24",
+            "version": "v1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
                 "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -32,16 +29,16 @@
                 "composer/composer": "1.0.*@dev",
                 "phpunit/phpunit": "4.1.*"
             },
-            "type": "composer-plugin",
+            "type": "composer-installer",
             "extra": {
-                "class": "Composer\\Installers\\Plugin",
+                "class": "Composer\\Installers\\Installer",
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Composer\\Installers\\": "src/Composer/Installers"
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,14 +53,12 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "https://composer.github.io/installers/",
+            "homepage": "http://composer.github.com/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
-                "ImageCMS",
                 "MODX Evo",
-                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -105,7 +100,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-05 11:42:46"
+            "time": "2015-02-18 17:17:01"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -148,6 +143,24 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-03-15 17:51:14"
+        },
+        {
+            "name": "iip-design/corona",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/corona.git",
+                "reference": "e8ee81e4079c6fad70530ba1f751a79cd17b56bd"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Wordpress base theme",
+            "time": "2016-04-12 21:01:20"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -226,7 +239,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "iip-design/corona": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
