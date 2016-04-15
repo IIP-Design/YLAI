@@ -61,6 +61,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 define('SUNRISE', 'on'); // wordpress-mu-domain-mapping activation*/
 
+define('WP_DEFAULT_THEME', 'corona');
 
 /* That's all, stop editing! Happy blogging. */
 
