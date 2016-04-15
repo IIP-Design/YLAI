@@ -21,13 +21,29 @@
         {
             "type": "composer",
             "url": "http://wpackagist.org"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/corona.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/ylai-theme.git"
         }
     ],
     "require": {
             "wordpress": "4.5",
             "fancyguy/webroot-installer": "1.1.0",
             "koodimonni/composer-dropin-installer": "0.2.4",
-            "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1"
+            "iip-design/corona": "dev-style_structure",
+            "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
+            "wpackagist-plugin/mailchimp-for-wp": "3.1",
+            "usstatedept/mailchimp-for-wp-pro": "3.1",
+            "usstatedept/ylai": "dev-master"
         },
     "extra": {
         "dropin-paths": {

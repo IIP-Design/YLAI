@@ -4,25 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b8b6bae7343ea5b501c005085cbc2181",
-    "content-hash": "2513ca9ec90780773a86625c2198466f",
+    "hash": "5a38fd7f3225a197cf7000198aaaab4f",
+    "content-hash": "cbeb64c582b3570b7317bc2ad8b91494",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.24",
+            "version": "v1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
-                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
                 "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -32,16 +29,16 @@
                 "composer/composer": "1.0.*@dev",
                 "phpunit/phpunit": "4.1.*"
             },
-            "type": "composer-plugin",
+            "type": "composer-installer",
             "extra": {
-                "class": "Composer\\Installers\\Plugin",
+                "class": "Composer\\Installers\\Installer",
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Composer\\Installers\\": "src/Composer/Installers"
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,14 +53,12 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "https://composer.github.io/installers/",
+            "homepage": "http://composer.github.com/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
-                "ImageCMS",
                 "MODX Evo",
-                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -105,7 +100,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-05 11:42:46"
+            "time": "2015-02-18 17:17:01"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -150,6 +145,24 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "iip-design/corona",
+            "version": "dev-style_structure",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/corona.git",
+                "reference": "f26a4674b8ede8779ed62e863afa3704562750e7"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Wordpress base theme",
+            "time": "2016-04-15 17:07:30"
+        },
+        {
             "name": "koodimonni/composer-dropin-installer",
             "version": "0.2.4",
             "source": {
@@ -189,6 +202,48 @@
             "time": "2015-01-04 10:24:12"
         },
         {
+            "name": "usstatedept/mailchimp-for-wp-pro",
+            "version": "3.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
+                "reference": "29d3e09f6cd185c90017892d2ecd22aaabe909c3"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The best MailChimp plugin for WordPress.",
+            "time": "2016-01-27 19:08:16"
+        },
+        {
+            "name": "usstatedept/ylai",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/ylai-theme.git",
+                "reference": "dc2e118740d306063d7320f1a966491d1d2c094d"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "description": "YLAI's theme, a child of Corona",
+            "time": "2016-04-15 17:12:28"
+        },
+        {
             "name": "wordpress",
             "version": "4.5",
             "dist": {
@@ -201,6 +256,26 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
         },
         {
             "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
@@ -226,7 +301,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "iip-design/corona": 20,
+        "usstatedept/ylai": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
