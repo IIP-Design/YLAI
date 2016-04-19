@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "188cc67e4515d7fe3ec5b8c544eb7fdd",
-    "content-hash": "78803cd076f8107b9339f989ba0ce47f",
+    "hash": "b090e323439ec3587ea69e65365780ee",
+    "content-hash": "df0e6176e48eef2c13fc0fa5b5db50a5",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "47ff430e4dda7b1d28734c6f6219870a4049a7bb"
+                "reference": "41ddf8c98cf9669d08feb09f15ecc23ec7aab41a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-19 18:56:28"
+            "time": "2016-04-19 19:19:30"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -200,6 +200,21 @@
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
             "time": "2015-01-04 10:24:12"
+        },
+        {
+            "name": "usstatedept/advanced-custom-fields",
+            "version": "5.3.2.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/advanced-custom-fields.git",
+                "reference": "b71152c79368d4240e734c9371413b1889e77b89"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "description": "Advanced Custom Fields",
+            "time": "2015-12-16 18:06:07"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
