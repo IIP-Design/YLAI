@@ -40,8 +40,9 @@
             "fancyguy/webroot-installer": "1.1.0",
             "koodimonni/composer-dropin-installer": "0.2.4",
             "iip-design/corona": "dev-style_structure",
+            "wpackagist-plugin/addthis": "5.2.3",
             "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
-            "wpackagist-plugin/mailchimp-for-wp": "3.1",   
+            "wpackagist-plugin/mailchimp-for-wp": "3.1",
             "wpackagist-plugin/google-apps-login": "2.9.6",
             "usstatedept/mailchimp-for-wp-pro": "3.1",
             "usstatedept/ylai": "dev-master"
