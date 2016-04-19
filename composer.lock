@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5a38fd7f3225a197cf7000198aaaab4f",
-    "content-hash": "cbeb64c582b3570b7317bc2ad8b91494",
+    "hash": "2edadbb4593ebd724f26f68cb5de3c1d",
+    "content-hash": "51f9c7009ca98cc1b3f1fc1c6e95bfc8",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "f26a4674b8ede8779ed62e863afa3704562750e7"
+                "reference": "07d28e2390bf24b04d1cc28963ffd1d590b8a961"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-15 17:07:30"
+            "time": "2016-04-18 15:19:09"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -231,7 +231,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "dc2e118740d306063d7320f1a966491d1d2c094d"
+                "reference": "fb9a760ac89fb8af7b7a09bd6b785b38d9efa1b1"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -241,7 +241,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-04-15 17:12:28"
+            "time": "2016-04-18 15:19:47"
         },
         {
             "name": "wordpress",
@@ -256,6 +256,26 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/google-apps-login",
+            "version": "2.9.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-apps-login/",
+                "reference": "tags/2.9.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.9.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-apps-login/"
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
