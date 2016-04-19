@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4b8ffb6ff3c7701c2d2b5d616f1c568f",
-    "content-hash": "48b1ba459a349f399558fff4b5a8a21a",
+    "hash": "82df4ffb0a995626f646a800c80cf460",
+    "content-hash": "fcee29b6084c8d0504da6005ce32c09b",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "f5a234deaf94bd2304faae6536839d2b825221df"
+                "reference": "e9caf025f8801e15bbecd862a7ecb7d1f2cb1de3"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-19 15:59:48"
+            "time": "2016-04-19 16:39:08"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -231,7 +231,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "9bda1bf1b9ab6fcb21e16193217850d11f39607e"
+                "reference": "95312910fccc4d723f44ae8ab478a69c2f391980"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -241,7 +241,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-04-19 16:00:22"
+            "time": "2016-04-19 16:37:30"
         },
         {
             "name": "wordpress",
@@ -259,15 +259,15 @@
         },
         {
             "name": "wpackagist-plugin/addthis",
-            "version": "5.2.3",
+            "version": "5.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/addthis/",
-                "reference": "tags/5.2.3"
+                "reference": "tags/5.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/addthis.5.2.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/addthis.5.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
