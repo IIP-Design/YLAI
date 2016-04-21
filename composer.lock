@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21c60105d9ea5a27a416169dcbdda43a",
-    "content-hash": "cddd41ad54281f6755492295c21e82aa",
+    "hash": "446062b6d61dd0ca38b5d31fea3f87d2",
+    "content-hash": "e901b59061891e828c0090308801940a",
     "packages": [
         {
             "name": "composer/installers",
@@ -200,6 +200,27 @@
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
             "time": "2015-01-04 10:24:12"
+        },
+        {
+            "name": "usstatedept/flexible-sidebar",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/flexible-sidebar.git",
+                "reference": "badee6eac2f3b1b5354d30e5b3c09ab6aaf7d2cf"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "kleekampnf@america.gov"
+                }
+            ],
+            "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
+            "time": "2016-04-20 17:51:30"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
