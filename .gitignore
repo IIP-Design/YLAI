@@ -6,6 +6,7 @@ wp-content/themes
 wp-content/uploads
 wp-content/upgrade
 wp-content/debug.log
+wp-content/ewww
 
 # wordpress-mu-domain-mapping
 wp-content/sunrise.php
