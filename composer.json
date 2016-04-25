@@ -28,10 +28,6 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/advanced-custom-fields.git"
-        },
-        {
-            "type": "git",
             "url": "git@github.com:USStateDept/Flexibile-Sidebar.git"
         },
         {
@@ -52,7 +48,6 @@
             "fancyguy/webroot-installer": "1.1.0",
             "koodimonni/composer-dropin-installer": "0.2.4",
             "iip-design/corona": "dev-master",
-            "wpackagist-plugin/addthis": "5.3.1",
             "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
             "wpackagist-plugin/mailchimp-for-wp": "3.1",
             "wpackagist-plugin/google-apps-login": "2.9.6",
@@ -62,7 +57,6 @@
             "wpackagist-plugin/mailchimp-top-bar": "1.2.10",
             "usstatedept/flexible-sidebar": "1.0.0",
             "usstatedept/call-to-action": "1.0.0",
-            "usstatedept/advanced-custom-fields": "5.3.2.2",
             "usstatedept/mailchimp-for-wp-pro": "3.1",
             "usstatedept/ylai": "dev-master"
         },
