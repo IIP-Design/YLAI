@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b32d1959db9f4cfce4436184fa9c657",
-    "content-hash": "b543e2f4d5742922580c52563a66d84c",
+    "hash": "fc499184766251ad202c988ef717c995",
+    "content-hash": "78ad92d8b31363792cc8b4c0c0e2937c",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "1a8a7b2a3636955fe8314229d81a3dbe9ba67efb"
+                "reference": "17f473bb230b5c4530c75d70a2339fef452057eb"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-21 18:35:54"
+            "time": "2016-04-25 18:27:47"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -202,6 +202,42 @@
             "time": "2015-01-04 10:24:12"
         },
         {
+            "name": "usstatedept/advanced-custom-fields",
+            "version": "5.3.2.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/advanced-custom-fields.git",
+                "reference": "b71152c79368d4240e734c9371413b1889e77b89"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "description": "Advanced Custom Fields",
+            "time": "2015-12-16 18:06:07"
+        },
+        {
+            "name": "usstatedept/call-to-action",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/call-to-action.git",
+                "reference": "64d22887c4e4e0c432160e368e30c59df13dd10a"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "kleekampnf@america.gov"
+                }
+            ],
+            "description": "Adds a call to action field to the page edit screens for homepage template(s)",
+            "time": "2016-04-25 18:22:38"
+        },
+        {
             "name": "usstatedept/flexible-sidebar",
             "version": "1.0.0",
             "source": {
@@ -220,7 +256,7 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-04-20 17:51:30"
+            "time": "2016-04-21 19:49:29"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
@@ -252,7 +288,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "95312910fccc4d723f44ae8ab478a69c2f391980"
+                "reference": "d099840635fc4bff5227b2340064da9c2c501abf"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -262,7 +298,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-04-19 16:37:30"
+            "time": "2016-04-22 20:01:20"
         },
         {
             "name": "wordpress",

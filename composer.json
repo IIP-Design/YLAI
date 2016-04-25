@@ -36,6 +36,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:USStateDept/call-to-action.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:IIP-Design/corona.git"
         },
         {
@@ -57,6 +61,8 @@
             "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
             "wpackagist-plugin/mailchimp-top-bar": "1.2.10",
             "usstatedept/flexible-sidebar": "1.0.0",
+            "usstatedept/call-to-action": "1.0.0",
+            "usstatedept/advanced-custom-fields": "5.3.2.2",
             "usstatedept/mailchimp-for-wp-pro": "3.1",
             "usstatedept/ylai": "dev-master"
         },
