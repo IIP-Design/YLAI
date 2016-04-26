@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6393982f47a28009c9d44b4e3a98a1a6",
-    "content-hash": "f938101badb3ce22ea836a53b200d302",
+    "hash": "eebc27d6562f85e5a46d301114d22d9a",
+    "content-hash": "2ae479cf364b2b626daf0785ae7f8cbf",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "a03988d760a9eef2fc0331dc69dbe4c7ffda81c9"
+                "reference": "9216decf852ca7276e384523eb1f3bdf5b3f52c5"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-26 16:30:11"
+            "time": "2016-04-26 19:54:13"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -418,6 +418,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "2.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "tags/2.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
             "name": "wpackagist-plugin/wordpress-mu-domain-mapping",

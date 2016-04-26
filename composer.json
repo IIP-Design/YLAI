@@ -56,6 +56,7 @@
             "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
             "wpackagist-plugin/mailchimp-top-bar": "1.2.10",
             "wpackagist-plugin/redirection": "2.4.4",
+            "wpackagist-plugin/regenerate-thumbnails": "2.2.6",
             "usstatedept/america-flexible-sidebar": "1.0.1",
             "usstatedept/america-call-to-action": "1.0.3",
             "usstatedept/mailchimp-for-wp-pro": "3.1",
