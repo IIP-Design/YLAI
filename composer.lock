@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eebc27d6562f85e5a46d301114d22d9a",
-    "content-hash": "2ae479cf364b2b626daf0785ae7f8cbf",
+    "hash": "8be5962008efd752fdb05daa5e201614",
+    "content-hash": "9825d5de1eafb404e29ee13aa569643a",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "9216decf852ca7276e384523eb1f3bdf5b3f52c5"
+                "reference": "2e954485d0ba35e75991619a56a30b9ba7cfe0e3"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-26 19:54:13"
+            "time": "2016-04-26 20:57:48"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -269,11 +269,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "eb02bc171eec60995dd0ce2a4a854684b2df7b2f"
+                "reference": "ebaea7528ce648d2b4cedcac994089c65d8e580d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -283,7 +283,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-04-26 16:31:09"
+            "time": "2016-04-26 21:04:33"
         },
         {
             "name": "wordpress",
@@ -483,10 +483,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "iip-design/corona": 20,
-        "usstatedept/ylai": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
