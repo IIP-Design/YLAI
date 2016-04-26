@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "146d923651fd36d9bab6b03f915576ee",
-    "content-hash": "6fde6c4ebd1ebc9d4c110162d038c73a",
+    "hash": "6393982f47a28009c9d44b4e3a98a1a6",
+    "content-hash": "f938101badb3ce22ea836a53b200d302",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "05cb979ee00a266fb6e855e938443707c036c05f"
+                "reference": "a03988d760a9eef2fc0331dc69dbe4c7ffda81c9"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-25 18:50:58"
+            "time": "2016-04-26 16:30:11"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -202,12 +202,12 @@
             "time": "2015-01-04 10:24:12"
         },
         {
-            "name": "usstatedept/call-to-action",
-            "version": "1.0.0",
+            "name": "usstatedept/america-call-to-action",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/call-to-action.git",
-                "reference": "64d22887c4e4e0c432160e368e30c59df13dd10a"
+                "reference": "097b62a68bbb183b75f011bdbb5977c53f466a53"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -220,15 +220,15 @@
                 }
             ],
             "description": "Adds a call to action field to the page edit screens for homepage template(s)",
-            "time": "2016-04-25 18:22:38"
+            "time": "2016-04-26 17:09:49"
         },
         {
-            "name": "usstatedept/flexible-sidebar",
-            "version": "1.0.0",
+            "name": "usstatedept/america-flexible-sidebar",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "0fb14f86680e69b836101ffd6c63b09775dc73b9"
+                "reference": "2a26746929ed9f3b0af1e8a7678ab2a72d86c16b"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -241,7 +241,7 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-04-21 19:49:29"
+            "time": "2016-04-26 17:20:34"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
@@ -273,7 +273,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "a27fcdafc812c739adad7597a0e4737d6c9bd525"
+                "reference": "eb02bc171eec60995dd0ce2a4a854684b2df7b2f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -283,7 +283,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-04-25 20:43:12"
+            "time": "2016-04-26 16:31:09"
         },
         {
             "name": "wordpress",
@@ -321,15 +321,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.7.2",
+            "version": "2.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.7.2"
+                "reference": "tags/2.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -398,6 +398,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mailchimp-top-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "2.4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/2.4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.2.4.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
             "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
