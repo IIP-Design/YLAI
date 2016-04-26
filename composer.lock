@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8be5962008efd752fdb05daa5e201614",
-    "content-hash": "9825d5de1eafb404e29ee13aa569643a",
+    "hash": "70a4015cc4dc3b0f2963c34f59dbf4e4",
+    "content-hash": "c128f2508c33c8460f9c1ad64c2ccd96",
     "packages": [
         {
             "name": "composer/installers",
@@ -318,6 +318,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-ses-and-dkim-mailer/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-comments",
+            "version": "1.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-comments/",
+                "reference": "tags/1.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-comments/"
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
