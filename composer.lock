@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a78c0426e13f0cb947377a3e81873432",
-    "content-hash": "8a83db25fb5f4368fac0ef76be5b00c8",
+    "hash": "d2c69e4d619491abd762f14454701a30",
+    "content-hash": "6df88a560b8f57edfbba127cce0e6c1d",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "1.0.1",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "3b515cecbe4935afb436274cc807ffbead9b0d3d"
+                "reference": "dea5c53fe3a7866721aa5616bb6824d61cf35dbf"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-04-27 18:01:33"
+            "time": "2016-04-27 19:41:44"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -269,11 +269,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "1.0.3",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "699397141711508962ec3a0254d0abc13468d31b"
+                "reference": "7ffa90706e65f95ffe92ddc0d29bf87cc884e43b"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -283,7 +283,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-04-27 16:07:14"
+            "time": "2016-04-27 19:46:53"
         },
         {
             "name": "wordpress",
