@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bb2b5414d44d01339f47257937e8fcfa",
-    "content-hash": "e0239443cff86783cc8266c3628f941b",
+    "hash": "eef3bfb957dfbc9c6c8d0ae1d0290484",
+    "content-hash": "455e48c066aa14ad9e6ae44c5c8ef80b",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "36e767d370bad1274996425f240b5c0945a47e69"
+                "reference": "08e5ba68831e74c231173b790c1b8e6b91474b1f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-05-04 19:50:28"
+            "time": "2016-05-05 20:34:25"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
