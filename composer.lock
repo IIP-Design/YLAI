@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eab8f4e93b20e153936c34a3a8704159",
-    "content-hash": "43f1e5808b49ff99bb561f2c07d6e3de",
+    "hash": "1bd87ac4df80493e5156a44ac20c1875",
+    "content-hash": "a7fe018dc98a5805ed73e6d839d6411c",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "647fd7edfd1ac99bfe316ccf0de80525b77fe3c6"
+                "reference": "19e0311e077117905e5b8f71c7caa38e63b5f0fd"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,24 +160,27 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-05-13 19:13:23"
+            "time": "2016-05-16 16:41:57"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
-            "version": "0.2.4",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340"
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/618b96fd3bc8c1532610b7f7baedc4e60736a340",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/717d992bccb9e5b1fded44136333704d4e61a4ae",
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*-dev"
             },
             "type": "composer-plugin",
             "extra": {
@@ -199,7 +202,7 @@
                 }
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-01-04 10:24:12"
+            "time": "2015-06-11 14:15:20"
         },
         {
             "name": "usstatedept/america-call-to-action",
@@ -269,11 +272,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "1.4",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "72a7ea23cd361a2eea12d9a4c1c674d979677a6a"
+                "reference": "38fa195558281670250dde224e127a9e98a9990e"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -283,7 +286,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-05-06 19:14:26"
+            "time": "2016-05-16 16:48:10"
         },
         {
             "name": "wordpress",
