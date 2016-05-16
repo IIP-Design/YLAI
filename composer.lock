@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f033b954211cc9f015f56247d3a7c738",
-    "content-hash": "0a1d53c47568cababf8e7d5431810178",
+    "hash": "eab8f4e93b20e153936c34a3a8704159",
+    "content-hash": "43f1e5808b49ff99bb561f2c07d6e3de",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "1.5",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "fa1b92dfaec924eaa07c30046dbcb9bfd02b6557"
+                "reference": "647fd7edfd1ac99bfe316ccf0de80525b77fe3c6"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-05-06 19:15:51"
+            "time": "2016-05-13 19:13:23"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -287,7 +287,7 @@
         },
         {
             "name": "wordpress",
-            "version": "4.5",
+            "version": "4.5.2",
             "dist": {
                 "type": "zip",
                 "url": "https://github.com/WordPress/WordPress/archive/4.5.zip",
@@ -321,15 +321,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-comments",
-            "version": "1.4.2",
+            "version": "1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-comments/",
-                "reference": "tags/1.4.2"
+                "reference": "tags/1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-comments.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -341,15 +341,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.8.0"
+                "reference": "tags/2.8.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -481,15 +481,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.2.3",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.2.3"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.2.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
