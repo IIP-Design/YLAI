@@ -41,13 +41,18 @@
         {
             "type": "git",
             "url": "git@github.com:USStateDept/ylai-theme.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/acf-sync.git"
         }
     ],
     "require": {
             "wordpress": "4.5.2",
             "fancyguy/webroot-installer": "1.1.0",
             "koodimonni/composer-dropin-installer": "1.0",
-            "iip-design/corona": "v2.1.1",
+            "freshflesh/acf-sync": "1.2",
+            "iip-design/corona": "v2.2.0",
             "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
             "wpackagist-plugin/mailchimp-for-wp": "3.1",
             "wpackagist-plugin/google-apps-login": "2.9.6",
@@ -58,7 +63,7 @@
             "wpackagist-plugin/redirection": "2.4.4",
             "wpackagist-plugin/regenerate-thumbnails": "2.2.6",
             "wpackagist-plugin/disable-comments": "1.5",
-            "usstatedept/america-flexible-sidebar": "1.0.1",
+            "usstatedept/america-flexible-sidebar": "2.0.3",
             "usstatedept/america-call-to-action": "1.0.3",
             "usstatedept/mailchimp-for-wp-pro": "3.1",
             "usstatedept/ylai": "2.0.1"

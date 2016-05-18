@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f1a4655dd2d40ee503131c1412362034",
-    "content-hash": "dd5362693fcffedd10eae426e389af3e",
+    "hash": "a87228e90f88864670b7ac74cca761dd",
+    "content-hash": "dfd20201ad5999b06a11d2333cd6bb91",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,12 +145,36 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "freshflesh/acf-sync",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/acf-sync.git",
+                "reference": "07fbff5c15a50f26d01ea373736741e6ee971c02"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Charbit",
+                    "email": "thomas.charbit@gmail.com"
+                }
+            ],
+            "description": "Keep your ACF field groups synchronized between different environments",
+            "time": "2016-05-18 12:20:08"
+        },
+        {
             "name": "iip-design/corona",
-            "version": "v2.1.1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "1ecd902254c4d1e67fc48352c405d8e70ab4a746"
+                "reference": "4cf981dd4c83c7607be13e4a8e9ff5ef9312d48b"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +184,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-05-16 20:02:01"
+            "time": "2016-05-17 20:47:05"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -227,11 +251,11 @@
         },
         {
             "name": "usstatedept/america-flexible-sidebar",
-            "version": "1.0.1",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "2a26746929ed9f3b0af1e8a7678ab2a72d86c16b"
+                "reference": "e1cb0d8106de9a0edb478a2440e94c9c6b52ca49"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -244,7 +268,7 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-04-26 17:20:34"
+            "time": "2016-05-18 15:18:56"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
