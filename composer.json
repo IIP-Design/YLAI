@@ -1,7 +1,4 @@
 {
-    "config": {
-        "secure-http": false
-    },
     "repositories": [
         {
             "type": "package",
@@ -20,7 +17,7 @@
         },
         {
             "type": "composer",
-            "url": "http://wpackagist.org"
+            "url": "https://wpackagist.org"
         },
         {
             "type": "git",
@@ -66,7 +63,7 @@
             "usstatedept/america-flexible-sidebar": "2.0.4",
             "usstatedept/america-call-to-action": "2.0.1",
             "usstatedept/mailchimp-for-wp-pro": "3.1",
-            "usstatedept/ylai": "2.0.1"
+            "usstatedept/ylai": "2.1.0"
         },
     "extra": {
         "dropin-paths": {
