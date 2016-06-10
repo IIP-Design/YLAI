@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ff47bf5a52cc18ec37d98b1f8c24b55",
-    "content-hash": "4750f05fb1bd6a00622eeaa5ee4ac759",
+    "hash": "646aba9ee9e9be34d57745e3c3e93318",
+    "content-hash": "8f3a68ace25ae9a53c2baa97c823a8fe",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "eed226c720a0793457cda55e9b83ed6ad8e3b71c"
+                "reference": "b1982b4a2e19c8c35e24d2a1dc635b50af157bdf"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-05-27 19:22:55"
+            "time": "2016-06-10 19:11:52"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -266,6 +266,27 @@
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
             "time": "2016-05-26 20:02:12"
+        },
+        {
+            "name": "usstatedept/america-post-formats",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/America-Post-Formats.git",
+                "reference": "839b27ecbb6db7a0486a59ae15005f16f61e7e06"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "kleekampnf@america.gov"
+                }
+            ],
+            "description": "A set of common fields, templates, and functionaly specific to Wordpress post formats",
+            "time": "2016-06-10 18:16:55"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
