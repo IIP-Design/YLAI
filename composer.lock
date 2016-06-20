@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "646aba9ee9e9be34d57745e3c3e93318",
-    "content-hash": "8f3a68ace25ae9a53c2baa97c823a8fe",
+    "hash": "d74de7fd55a1087cc6a97a48584ad828",
+    "content-hash": "69df3005cf8bb8665df5c52faee08c5a",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "v2.5.0",
+            "version": "dev-ylai_3_prep",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "b1982b4a2e19c8c35e24d2a1dc635b50af157bdf"
+                "reference": "c07c665477524b1fa9c31855a71cf10ed81f5a5b"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-06-10 19:11:52"
+            "time": "2016-06-17 20:09:10"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -203,27 +203,6 @@
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
             "time": "2015-06-11 14:15:20"
-        },
-        {
-            "name": "usstatedept/america-acf-local-json-manager",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:IIP-Design/ACF-Local-JSON-Manager.git",
-                "reference": "3ece4b2ff4c8a275d5f89734405934729894bf1e"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Office of Design, U.S. Department of State",
-                    "email": "kleekampnf@america.gov"
-                }
-            ],
-            "description": "A Wordpress plugin that syncs ACF local json forms to/from multiple save and load points.",
-            "time": "2016-05-26 17:47:27"
         },
         {
             "name": "usstatedept/america-call-to-action",
@@ -289,6 +268,27 @@
             "time": "2016-06-10 18:16:55"
         },
         {
+            "name": "usstatedept/america-related-content",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/America-Related-Content.git",
+                "reference": "e90c86e5eb58a701abbb9eab03466236754799da"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "kleekampnf@america.gov"
+                }
+            ],
+            "description": "A plugin for relating content by taxonomies",
+            "time": "2016-06-20 17:29:47"
+        },
+        {
             "name": "usstatedept/mailchimp-for-wp-pro",
             "version": "3.1",
             "source": {
@@ -314,11 +314,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "e876fd0928d3f14b06db44dc8ab73ba2bfb2f376"
+                "reference": "3d8bdd5b0866c6750546da1b79144215b6d64f45"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -328,7 +328,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-06-07 12:16:06"
+            "time": "2016-06-20 17:24:55"
         },
         {
             "name": "wordpress",
@@ -545,10 +545,96 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "usstatedept/america-acf-local-json-manager",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/ACF-Local-JSON-Manager.git",
+                "reference": "3ece4b2ff4c8a275d5f89734405934729894bf1e"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "kleekampnf@america.gov"
+                }
+            ],
+            "description": "A Wordpress plugin that syncs ACF local json forms to/from multiple save and load points.",
+            "time": "2016-05-26 17:47:27"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar",
+            "version": "0.8.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar/",
+                "reference": "tags/0.8.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-actions-and-filters-addon",
+            "version": "1.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-actions-and-filters-addon/",
+                "reference": "tags/1.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "2.11.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/2.11.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.11.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "usstatedept/america-related-content": 20,
+        "usstatedept/ylai": 20,
+        "iip-design/corona": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
