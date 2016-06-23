@@ -73,12 +73,12 @@
             "wpackagist-plugin/regenerate-thumbnails": "2.2.6",
             "wpackagist-plugin/disable-comments": "1.5",
             "usstatedept/mailchimp-for-wp-pro": "3.1",
-            "usstatedept/america-post-formats": "1.0.0",
-            "usstatedept/america-flexible-sidebar": "2.0.4",
+            "usstatedept/america-post-formats": "1.1.0",
+            "usstatedept/america-flexible-sidebar": "dev-master",
             "usstatedept/america-call-to-action": "2.0.1",
             "usstatedept/america-related-content": "1.0.0",
             "usstatedept/ylai": "dev-master",
-            "iip-design/corona": "dev-ylai_3_prep"
+            "iip-design/corona": "dev-master"
         },
     "extra": {
         "dropin-paths": {

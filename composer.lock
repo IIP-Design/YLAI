@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b61f298cb10c8d57aa4575bb1a48651",
-    "content-hash": "f655f9d9e562835e18197fa6c1460e83",
+    "hash": "e770609465c551aa91bfaefcc6fdbd0f",
+    "content-hash": "0b464a3bd5e782d686641537462e701c",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "dev-ylai_3_prep",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "c07c665477524b1fa9c31855a71cf10ed81f5a5b"
+                "reference": "44a41355ad0e02ba81e090564c4281ec311310ee"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-06-17 20:09:10"
+            "time": "2016-06-23 12:49:12"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -227,11 +227,11 @@
         },
         {
             "name": "usstatedept/america-flexible-sidebar",
-            "version": "2.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "14dc479c0035d63786a8f82eaba74932e869b66d"
+                "reference": "73d97889bca074dafaeaa4b9c61efbf2ce3c457d"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -244,15 +244,15 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-05-26 20:02:12"
+            "time": "2016-06-23 12:39:47"
         },
         {
             "name": "usstatedept/america-post-formats",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-Post-Formats.git",
-                "reference": "839b27ecbb6db7a0486a59ae15005f16f61e7e06"
+                "reference": "167cedef6ab7dbd5795dcff7fb0de5148cc5a29b"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -265,7 +265,7 @@
                 }
             ],
             "description": "A set of common fields, templates, and functionaly specific to Wordpress post formats",
-            "time": "2016-06-10 18:16:55"
+            "time": "2016-06-23 12:47:39"
         },
         {
             "name": "usstatedept/america-related-content",
@@ -631,6 +631,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "usstatedept/america-flexible-sidebar": 20,
         "usstatedept/ylai": 20,
         "iip-design/corona": 20
     },
