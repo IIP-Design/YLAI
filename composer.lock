@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "646aba9ee9e9be34d57745e3c3e93318",
-    "content-hash": "8f3a68ace25ae9a53c2baa97c823a8fe",
+    "hash": "e6932093ebc3731c47d7eaf46f7ed3c5",
+    "content-hash": "586d8e2df862ba7ee94209c98dcf17d9",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,11 +146,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "v2.5.0",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "b1982b4a2e19c8c35e24d2a1dc635b50af157bdf"
+                "reference": "86ebbb4c49bb6af6fb023fbcc600ecea69e77fcd"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-06-10 19:11:52"
+            "time": "2016-06-23 19:34:21"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -205,27 +205,6 @@
             "time": "2015-06-11 14:15:20"
         },
         {
-            "name": "usstatedept/america-acf-local-json-manager",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:IIP-Design/ACF-Local-JSON-Manager.git",
-                "reference": "3ece4b2ff4c8a275d5f89734405934729894bf1e"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Office of Design, U.S. Department of State",
-                    "email": "kleekampnf@america.gov"
-                }
-            ],
-            "description": "A Wordpress plugin that syncs ACF local json forms to/from multiple save and load points.",
-            "time": "2016-05-26 17:47:27"
-        },
-        {
             "name": "usstatedept/america-call-to-action",
             "version": "2.0.1",
             "source": {
@@ -248,11 +227,11 @@
         },
         {
             "name": "usstatedept/america-flexible-sidebar",
-            "version": "2.0.4",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "14dc479c0035d63786a8f82eaba74932e869b66d"
+                "reference": "fa44fe535d4bdf23cdec5afa0559c8f650f37bc6"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -265,15 +244,15 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-05-26 20:02:12"
+            "time": "2016-06-23 19:19:55"
         },
         {
             "name": "usstatedept/america-post-formats",
-            "version": "1.0.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-Post-Formats.git",
-                "reference": "839b27ecbb6db7a0486a59ae15005f16f61e7e06"
+                "reference": "9c23b7a2a8e1e4850a01692b002333578995acda"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -286,7 +265,28 @@
                 }
             ],
             "description": "A set of common fields, templates, and functionaly specific to Wordpress post formats",
-            "time": "2016-06-10 18:16:55"
+            "time": "2016-06-23 19:16:45"
+        },
+        {
+            "name": "usstatedept/america-related-content",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/America-Related-Content.git",
+                "reference": "f4152ad9f9183ef61052c2dfbd2ec4f5e1009296"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "kleekampnf@america.gov"
+                }
+            ],
+            "description": "A plugin for relating content by taxonomies",
+            "time": "2016-06-23 14:40:44"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
@@ -314,11 +314,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "e876fd0928d3f14b06db44dc8ab73ba2bfb2f376"
+                "reference": "a2e33d4a4e1f9e5237d7457f13455ee216171acc"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -328,7 +328,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-06-07 12:16:06"
+            "time": "2016-06-23 19:31:16"
         },
         {
             "name": "wordpress",
@@ -545,7 +545,89 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "usstatedept/america-acf-local-json-manager",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/ACF-Local-JSON-Manager.git",
+                "reference": "3ece4b2ff4c8a275d5f89734405934729894bf1e"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "kleekampnf@america.gov"
+                }
+            ],
+            "description": "A Wordpress plugin that syncs ACF local json forms to/from multiple save and load points.",
+            "time": "2016-05-26 17:47:27"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar",
+            "version": "0.8.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar/",
+                "reference": "tags/0.8.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-actions-and-filters-addon",
+            "version": "1.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-actions-and-filters-addon/",
+                "reference": "tags/1.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "2.11.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/2.11.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.11.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
