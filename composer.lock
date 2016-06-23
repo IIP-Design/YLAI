@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6fb8c8b07973e4516c999997d9f2d67",
-    "content-hash": "34e8735342858bb8ed841cadaa33ee06",
+    "hash": "e314c3c3663cf9ee6bc8942d389bc4f8",
+    "content-hash": "7c265fc3658eb6bfc8b62b37573b3ae4",
     "packages": [
         {
             "name": "composer/installers",
@@ -227,11 +227,11 @@
         },
         {
             "name": "usstatedept/america-flexible-sidebar",
-            "version": "dev-master",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "73d97889bca074dafaeaa4b9c61efbf2ce3c457d"
+                "reference": "fa44fe535d4bdf23cdec5afa0559c8f650f37bc6"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -244,15 +244,15 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-06-23 12:39:47"
+            "time": "2016-06-23 19:19:55"
         },
         {
             "name": "usstatedept/america-post-formats",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-Post-Formats.git",
-                "reference": "d87f6bd7b25b198867aec28bc9a4e8f959aebac4"
+                "reference": "9c23b7a2a8e1e4850a01692b002333578995acda"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -265,7 +265,7 @@
                 }
             ],
             "description": "A set of common fields, templates, and functionaly specific to Wordpress post formats",
-            "time": "2016-06-23 17:07:53"
+            "time": "2016-06-23 19:16:45"
         },
         {
             "name": "usstatedept/america-related-content",
@@ -631,7 +631,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/america-flexible-sidebar": 20,
         "usstatedept/ylai": 20,
         "iip-design/corona": 20
     },
