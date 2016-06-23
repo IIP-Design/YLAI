@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ac2860bf64e7b7d095d4c7508d359529",
-    "content-hash": "5aa183eb8ff61a5ae4d47039795c46d7",
+    "hash": "c6fb8c8b07973e4516c999997d9f2d67",
+    "content-hash": "34e8735342858bb8ed841cadaa33ee06",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "44a41355ad0e02ba81e090564c4281ec311310ee"
+                "reference": "931f7f7fa07e8209fcb68349fe3ee8a26b3bdcb9"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -160,7 +160,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-06-23 12:49:12"
+            "time": "2016-06-23 16:42:36"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -248,11 +248,11 @@
         },
         {
             "name": "usstatedept/america-post-formats",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/America-Post-Formats.git",
-                "reference": "167cedef6ab7dbd5795dcff7fb0de5148cc5a29b"
+                "reference": "d87f6bd7b25b198867aec28bc9a4e8f959aebac4"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -265,7 +265,7 @@
                 }
             ],
             "description": "A set of common fields, templates, and functionaly specific to Wordpress post formats",
-            "time": "2016-06-23 12:47:39"
+            "time": "2016-06-23 17:07:53"
         },
         {
             "name": "usstatedept/america-related-content",
