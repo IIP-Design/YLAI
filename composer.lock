@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "463ce1fafbae632a7837c06b69067cd5",
-    "content-hash": "0e51987fe6a164c3e824be7bf19bf258",
+    "hash": "a932082bf831117528177bb332a0bd7b",
+    "content-hash": "c1742258d8f0fb76967aef5edd56b7b6",
     "packages": [
         {
             "name": "composer/installers",
@@ -269,11 +269,11 @@
         },
         {
             "name": "usstatedept/america-related-content",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-Related-Content.git",
-                "reference": "f4152ad9f9183ef61052c2dfbd2ec4f5e1009296"
+                "reference": "c85b8b2a3b8d4546ba541f7cf98500cf0cb8f28b"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -286,7 +286,7 @@
                 }
             ],
             "description": "A plugin for relating content by taxonomies",
-            "time": "2016-06-23 14:40:44"
+            "time": "2016-07-10 13:53:11"
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
