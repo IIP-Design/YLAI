@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6932093ebc3731c47d7eaf46f7ed3c5",
-    "content-hash": "586d8e2df862ba7ee94209c98dcf17d9",
+    "hash": "250b2842bd8ff17bb4e4cd314b3b160c",
+    "content-hash": "6c9bc1adcf1c49b72977eb34acb6d212",
     "packages": [
         {
             "name": "composer/installers",
@@ -227,11 +227,11 @@
         },
         {
             "name": "usstatedept/america-flexible-sidebar",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "fa44fe535d4bdf23cdec5afa0559c8f650f37bc6"
+                "reference": "54d0ad420d3d74172ac878bef7313f557cfdbf04"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -244,7 +244,7 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-06-23 19:19:55"
+            "time": "2016-07-20 12:35:36"
         },
         {
             "name": "usstatedept/america-post-formats",
@@ -314,11 +314,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "a2e33d4a4e1f9e5237d7457f13455ee216171acc"
+                "reference": "6dadaf193521523b7749d2fa3270a085e960ef70"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -328,7 +328,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-06-23 19:31:16"
+            "time": "2016-07-20 12:39:42"
         },
         {
             "name": "wordpress",
@@ -386,15 +386,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.8.1",
+            "version": "2.9.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.8.1"
+                "reference": "tags/2.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.9.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -406,15 +406,15 @@
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
-            "version": "2.9.6",
+            "version": "2.9.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-apps-login/",
-                "reference": "tags/2.9.6"
+                "reference": "tags/2.9.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.9.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.9.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -426,15 +426,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "3.1",
+            "version": "3.1.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/3.1"
+                "reference": "tags/3.1.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -446,15 +446,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-top-bar",
-            "version": "1.2.10",
+            "version": "1.2.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-top-bar/",
-                "reference": "tags/1.2.10"
+                "reference": "tags/1.2.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-top-bar.1.2.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-top-bar.1.2.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -466,15 +466,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "2.4.4",
+            "version": "2.4.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/2.4.4"
+                "reference": "tags/2.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.2.4.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.2.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -526,15 +526,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.2.5",
+            "version": "3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.2.5"
+                "reference": "tags/3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.2.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -609,15 +609,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "2.11.0",
+            "version": "2.11.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/2.11.0"
+                "reference": "tags/2.11.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.11.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.2.11.4.zip",
                 "reference": null,
                 "shasum": null
             },
