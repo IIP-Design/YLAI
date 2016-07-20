@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ef9bc9aa1eafd0e076f5d7ce0787ec7",
-    "content-hash": "6a6f6c78c515cf793f27f0060a90fe8f",
+    "hash": "461ba0d1b4bc5fa37e7603a28af1d1ad",
+    "content-hash": "bb9b43ebe5d93dc829b7f05a25e070dd",
     "packages": [
         {
             "name": "composer/installers",
@@ -227,11 +227,11 @@
         },
         {
             "name": "usstatedept/america-flexible-sidebar",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "54d0ad420d3d74172ac878bef7313f557cfdbf04"
+                "reference": "9a92cdb4ffebccadf882c937cd18abcd6c47ea57"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -244,7 +244,7 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-07-20 12:35:36"
+            "time": "2016-07-20 13:04:27"
         },
         {
             "name": "usstatedept/america-post-formats",
