@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d62dc5e4fd67e3c84d985f27ce5c774",
-    "content-hash": "5c9f37197b5d8eb7e548a90785677849",
+    "hash": "afbde30de26dbb00504c6c6023006c9b",
+    "content-hash": "7fceab853b387d1935b38e69b895cca6",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,6 +145,39 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "humanmade/s3-uploads",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:humanmade/S3-Uploads.git",
+                "reference": "1480c9a9959646074e52bcc1d35166a154623747"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.co.uk",
+                    "homepage": "http://hmn.md/"
+                }
+            ],
+            "description": "WordPress plugin to store uploads on S3",
+            "homepage": "https://github.com/humanmade/S3-Uploads",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/s3-uploads/issues",
+                "source": "https://github.com/humanmade/s3-uploads"
+            },
+            "time": "2016-08-09 16:42:19"
+        },
+        {
             "name": "iip-design/corona",
             "version": "v2.8.0",
             "source": {
@@ -161,6 +194,27 @@
             ],
             "description": "A Wordpress base theme",
             "time": "2016-08-15 17:31:07"
+        },
+        {
+            "name": "iip-design/iip-chatroll",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/iip-chatroll.git",
+                "reference": "de7c43e2bb0a23e9944a75334bf9810f2920019d"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "Chatroll Shortcode for IIP Properties",
+            "time": "2016-07-18 19:27:50"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -332,10 +386,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.5.2",
+            "version": "4.6",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.5.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -650,7 +704,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "humanmade/s3-uploads": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
