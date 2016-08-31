@@ -28,6 +28,25 @@ define('LOGGED_IN_SALT', getenv('YLAI_LOGGED_IN_SALT'));
 define('NONCE_SALT', getenv('YLAI_NONCE_SALT'));
 
 
+/** AWS S3 Uploads directory **/
+
+if ( isset( $_SERVER['YLAI_S3_UPLOADS_BUCKET'] ) ) {
+  define('S3_UPLOADS_BUCKET', getenv('YLAI_S3_UPLOADS_BUCKET'));
+}
+
+if ( isset( $_SERVER['YLAI_S3_UPLOADS_KEY'] ) ) {
+  define('S3_UPLOADS_KEY', getenv('YLAI_S3_UPLOADS_KEY'));
+}
+
+if ( isset( $_SERVER['YLAI_S3_UPLOADS_SECRET'] ) ) {
+  define('S3_UPLOADS_SECRET', getenv('YLAI_S3_UPLOADS_SECRET'));
+}
+
+if ( isset( $_SERVER['YLAI_S3_UPLOADS_REGION'] ) ) {
+  define('S3_UPLOADS_REGION', getenv('YLAI_S3_UPLOADS_REGION'));
+}
+
+
 $table_prefix = 'wp_';
 
 
