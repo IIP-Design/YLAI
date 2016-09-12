@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be6598c447e0c416ebbe5d36be313415",
-    "content-hash": "9e6e91b8650a7a8b5c8a86a80ec61cd4",
+    "hash": "809eb81bb9adfd3becc3abf919bdbf53",
+    "content-hash": "633303a8506be136f1fa0aa30340abf7",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,7 +150,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:humanmade/S3-Uploads.git",
-                "reference": "1480c9a9959646074e52bcc1d35166a154623747"
+                "reference": "bcb0a70980bcb102c8705627601ed977bdf2c3c9"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -175,15 +175,15 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2016-08-09 16:42:19"
+            "time": "2016-09-01 14:41:23"
         },
         {
             "name": "iip-design/corona",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona.git",
-                "reference": "993e1b480f77b50d773802e578a5cba62685ea71"
+                "reference": "476c1542a0cf18c492ec3aa7ba1573d6c6d54509"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -193,7 +193,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-08-15 17:31:07"
+            "time": "2016-09-12 19:28:40"
         },
         {
             "name": "iip-design/iip-chatroll",
@@ -368,11 +368,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "fbf399a5f8c445ee07ed625318d9977b3ef9064a"
+                "reference": "81a605dd7bd8fa457d85e70b5b454d5c2a3d7d92"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -382,14 +382,14 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-08-15 13:09:41"
+            "time": "2016-09-12 19:25:35"
         },
         {
             "name": "wordpress",
-            "version": "4.6",
+            "version": "4.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.6.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
