@@ -88,8 +88,8 @@
             "usstatedept/america-call-to-action": "2.0.1",
             "usstatedept/america-related-content": "1.0.3",
             "iip-design/iip-chatroll": "1.0.0",
-            "usstatedept/ylai": "v2.2.1",
-            "iip-design/corona": "v2.8.1"
+            "usstatedept/ylai": "v2.3.0",
+            "iip-design/corona": "v2.9.0"
         },
     "extra": {
         "dropin-paths": {
