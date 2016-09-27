@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "640388cdda962a2ccd19731a18d2705c",
-    "content-hash": "c9a13943b75f3e3f7a929fdd89af20f8",
+    "hash": "e66f25bc1c6f9d01a0f4229d52a2de68",
+    "content-hash": "72ab836c4208d63f36398f8a99e58438",
     "packages": [
         {
             "name": "composer/installers",
@@ -368,11 +368,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.3.1",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "57bc5381e3ce16615ea376a3ee2d031f3654e8a6"
+                "reference": "e5128d8120763c717d819777c30177bdfcc5f082"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -382,7 +382,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-09-27 12:52:10"
+            "time": "2016-09-27 19:50:00"
         },
         {
             "name": "wordpress",
