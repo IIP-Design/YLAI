@@ -89,7 +89,7 @@
             "usstatedept/america-related-content": "1.0.3",
             "iip-design/iip-chatroll": "1.0.0",
             "usstatedept/ylai": "v2.3.3",
-            "iip-design/corona": "v2.10.1"
+            "iip-design/corona": "v2.10.2"
         },
     "extra": {
         "dropin-paths": {

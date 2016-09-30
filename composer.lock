@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99ea423ea94bf74e1b5be8036f9a4c99",
-    "content-hash": "1cfeac04935df26302e1a916897bd0cb",
+    "hash": "5e5dc9401576dec0d72ffb748700d1e6",
+    "content-hash": "6601824f370c1f95d8631757da9d2a0d",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,11 +179,11 @@
         },
         {
             "name": "iip-design/corona",
-            "version": "v2.10.1",
+            "version": "v2.10.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/corona-theme.git",
-                "reference": "575ac88a86f0f55ea3dfc89b4bdb174c88dea0c8"
+                "reference": "72285cc54c5a09f58ba263c9b3c8b5553151be49"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -193,7 +193,7 @@
                 "MIT"
             ],
             "description": "A Wordpress base theme",
-            "time": "2016-09-20 18:06:33"
+            "time": "2016-09-30 16:06:55"
         },
         {
             "name": "iip-design/iip-chatroll",
