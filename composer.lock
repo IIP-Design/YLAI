@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5e5dc9401576dec0d72ffb748700d1e6",
-    "content-hash": "6601824f370c1f95d8631757da9d2a0d",
+    "hash": "c285481e12c7f3c3353c893de5e8a050",
+    "content-hash": "2dfd07fcc5156e52d8a582dcd875cc26",
     "packages": [
         {
             "name": "composer/installers",
@@ -176,6 +176,27 @@
                 "source": "https://github.com/humanmade/s3-uploads"
             },
             "time": "2016-09-21 19:46:55"
+        },
+        {
+            "name": "iip-design/america-api-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/America-API-Client.git",
+                "reference": "a4d87c427f0ed33fff525619a81a10a47be3b8e0"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "design@america.gov"
+                }
+            ],
+            "description": "Wordpress plugin for consuming the America API",
+            "time": "2016-11-04 16:44:42"
         },
         {
             "name": "iip-design/corona",
@@ -705,7 +726,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "humanmade/s3-uploads": 20
+        "humanmade/s3-uploads": 20,
+        "iip-design/america-api-client": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
