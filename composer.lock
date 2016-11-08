@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c285481e12c7f3c3353c893de5e8a050",
-    "content-hash": "2dfd07fcc5156e52d8a582dcd875cc26",
+    "hash": "2820e7b7b3e91f05eaadf44c5d376fe2",
+    "content-hash": "3bbe9c88c2952377e85e3f6a747096ee",
     "packages": [
         {
             "name": "composer/installers",
@@ -183,7 +183,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "53a5fbb075404d3b6965538c139ee53742ea69e5"
+                "reference": "d228957ff15f65150d9eee9ce17c487ab8b6a9be"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2016-11-06 00:07:40"
+            "time": "2016-11-08 14:53:29"
         },
         {
             "name": "iip-design/corona",
@@ -389,11 +389,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.3.3",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "14b0e6d95603a85abd09ad911f9ed751c14f2324"
+                "reference": "dd0f45a2ae518278e371b1bc5093ca4388c0b977"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -403,7 +403,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-09-28 19:51:28"
+            "time": "2016-11-08 15:35:27"
         },
         {
             "name": "wordpress",
