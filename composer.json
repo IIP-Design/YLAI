@@ -61,6 +61,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:IIP-Design/wp-simple-nonce.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:humanmade/S3-Uploads.git"
         },
         {
@@ -104,7 +108,8 @@
             "usstatedept/formidable": "2.02.10",
             "iip-design/iip-chatroll": "1.0.0",
             "iip-design/america-api-client": "dev-master",
-            "usstatedept/ylai": "v2.4.1",
+            "iip-design/wp-simple-nonce": "1.2",
+            "usstatedept/ylai": "v2.5.0",
             "iip-design/corona": "v2.10.2"
         },
     "extra": {

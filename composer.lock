@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7747ac6ed20b789ee376dbd84fc16a45",
-    "content-hash": "e9959788f40afd4fbf950aea022ff544",
+    "hash": "eba39aedacb578edee78ac9d8dd8e814",
+    "content-hash": "4e61f86ff83519b8bcf176e8d362a6a5",
     "packages": [
         {
             "name": "composer/installers",
@@ -183,7 +183,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "d94fd05074315d916433f55688a8df4f33da9d09"
+                "reference": "e5b9a4d98101dd9351781636781ac1975887dc92"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2016-11-16 20:47:41"
+            "time": "2016-11-16 21:34:43"
         },
         {
             "name": "iip-design/corona",
@@ -236,6 +236,31 @@
             ],
             "description": "Chatroll Shortcode for IIP Properties",
             "time": "2016-07-18 19:27:50"
+        },
+        {
+            "name": "iip-design/wp-simple-nonce",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/wp-simple-nonce.git",
+                "reference": "48b5dfbdf68ca9b3267aea4cf70f2e90d090eb48"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Cal Evans",
+                    "email": "cal@calevans.com"
+                },
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "design@america.gov"
+                }
+            ],
+            "description": "A very simple NONCE for WordPress developers.",
+            "time": "2016-11-16 21:32:14"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -437,11 +462,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.4.1",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "8841b1372b47fbcbf7155d5235000c860bb3db84"
+                "reference": "e2773756af082d9873c77a45779e91a96d24c367"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -451,7 +476,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-11-16 20:50:04"
+            "time": "2016-11-16 22:18:16"
         },
         {
             "name": "wordpress",
