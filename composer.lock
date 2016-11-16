@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2820e7b7b3e91f05eaadf44c5d376fe2",
-    "content-hash": "3bbe9c88c2952377e85e3f6a747096ee",
+    "hash": "7747ac6ed20b789ee376dbd84fc16a45",
+    "content-hash": "e9959788f40afd4fbf950aea022ff544",
     "packages": [
         {
             "name": "composer/installers",
@@ -183,7 +183,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "d228957ff15f65150d9eee9ce17c487ab8b6a9be"
+                "reference": "d94fd05074315d916433f55688a8df4f33da9d09"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2016-11-08 14:53:29"
+            "time": "2016-11-16 20:47:41"
         },
         {
             "name": "iip-design/corona",
@@ -364,6 +364,54 @@
             "time": "2016-07-10 13:53:11"
         },
         {
+            "name": "usstatedept/formidable",
+            "version": "2.02.10",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/formidable.git",
+                "reference": "2979b6d4a667a7d5bfdcd3800227966774be6051"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Kaizer",
+                    "email": "peter.kaizer@aquilent.com"
+                }
+            ],
+            "description": "Formidable",
+            "time": "2016-11-16 19:48:56"
+        },
+        {
+            "name": "usstatedept/formidable-mailchimp",
+            "version": "1.04.01",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/formidable-mailchimp.git",
+                "reference": "578f56e5ebf78f498e81920683c6bc46b17dad2d"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Kaizer",
+                    "email": "peter.kaizer@aquilent.com"
+                }
+            ],
+            "description": "Formidable to Mailchimp integration.",
+            "time": "2015-10-27 14:52:07"
+        },
+        {
             "name": "usstatedept/mailchimp-for-wp-pro",
             "version": "3.2.1",
             "source": {
@@ -389,11 +437,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.4.0",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "dd0f45a2ae518278e371b1bc5093ca4388c0b977"
+                "reference": "8841b1372b47fbcbf7155d5235000c860bb3db84"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -403,7 +451,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-11-08 15:35:27"
+            "time": "2016-11-16 20:50:04"
         },
         {
             "name": "wordpress",

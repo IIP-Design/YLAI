@@ -62,6 +62,14 @@
         {
             "type": "git",
             "url": "git@github.com:humanmade/S3-Uploads.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/formidable.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/formidable-mailchimp.git"
         }
 
     ],
@@ -92,9 +100,11 @@
             "usstatedept/america-flexible-sidebar": "3.1.1",
             "usstatedept/america-call-to-action": "2.0.1",
             "usstatedept/america-related-content": "1.0.3",
+            "usstatedept/formidable-mailchimp": "1.04.01",
+            "usstatedept/formidable": "2.02.10",
             "iip-design/iip-chatroll": "1.0.0",
             "iip-design/america-api-client": "dev-master",
-            "usstatedept/ylai": "v2.4.0",
+            "usstatedept/ylai": "v2.4.1",
             "iip-design/corona": "v2.10.2"
         },
     "extra": {
