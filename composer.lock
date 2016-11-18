@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ae1bac8c6f99409db274420290d22390",
-    "content-hash": "a014bf035c160a6186fb844a0d294474",
+    "hash": "d44cf2b5cfdd32b24ca087176ac821d7",
+    "content-hash": "31bc37e6562aad2a2465e64cbb76913e",
     "packages": [
         {
             "name": "composer/installers",
@@ -183,7 +183,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "a21d1025221017da7b051808022d5d7a0815e00f"
+                "reference": "9507a6c1c88ec8d70501f356efef70bc5689af77"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2016-11-18 20:22:29"
+            "time": "2016-11-18 21:11:07"
         },
         {
             "name": "iip-design/corona",
@@ -239,11 +239,11 @@
         },
         {
             "name": "iip-design/wp-simple-nonce",
-            "version": "1.2",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-simple-nonce.git",
-                "reference": "48b5dfbdf68ca9b3267aea4cf70f2e90d090eb48"
+                "reference": "f629bb6ecfbdb3f15e19b5e9ec4f32ae2acae13e"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -260,7 +260,7 @@
                 }
             ],
             "description": "A very simple NONCE for WordPress developers.",
-            "time": "2016-11-16 21:32:14"
+            "time": "2016-11-18 20:30:58"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
