@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "62696402cffee536e700deece0e482e8",
-    "content-hash": "d01e321008f112767c55714210b4c340",
+    "hash": "7e168143aa5ccf118ffc2cdea77053b8",
+    "content-hash": "023b56741cf15537984793fa4f073e99",
     "packages": [
         {
             "name": "composer/installers",
@@ -239,11 +239,11 @@
         },
         {
             "name": "iip-design/wp-simple-nonce",
-            "version": "1.3",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-simple-nonce.git",
-                "reference": "508dd009cde1aff3d254013090444bb93ff1db60"
+                "reference": "3b1d417d7033d8fb32ebd0363de355aa2126b2b7"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -260,7 +260,7 @@
                 }
             ],
             "description": "A very simple NONCE for WordPress developers.",
-            "time": "2016-11-18 13:57:16"
+            "time": "2016-11-18 16:32:21"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -462,11 +462,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.6.1",
+            "version": "v2.7.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "a7671730a6c391dd6bd6b16173d2beaafd78656f"
+                "reference": "17bc1eba2cfe4c1259633f6b8f3dc82dff105c49"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -476,7 +476,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-11-18 13:54:30"
+            "time": "2016-11-18 16:37:41"
         },
         {
             "name": "wordpress",
