@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d44cf2b5cfdd32b24ca087176ac821d7",
-    "content-hash": "31bc37e6562aad2a2465e64cbb76913e",
+    "hash": "e39a1be2af6bda8b48642101e9784874",
+    "content-hash": "38214ee7335a2f8774913aec0ea685c0",
     "packages": [
         {
             "name": "composer/installers",
@@ -239,11 +239,11 @@
         },
         {
             "name": "iip-design/wp-simple-nonce",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-simple-nonce.git",
-                "reference": "f629bb6ecfbdb3f15e19b5e9ec4f32ae2acae13e"
+                "reference": "c0ade56448782723bab875ed3db128e239973587"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -260,7 +260,7 @@
                 }
             ],
             "description": "A very simple NONCE for WordPress developers.",
-            "time": "2016-11-18 20:30:58"
+            "time": "2016-11-18 22:03:33"
         },
         {
             "name": "koodimonni/composer-dropin-installer",

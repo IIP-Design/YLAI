@@ -109,7 +109,7 @@
             "iip-design/iip-chatroll": "1.0.0",
             "iip-design/america-api-client": "dev-master",
             "usstatedept/ylai": "v2.7.3",
-            "iip-design/wp-simple-nonce": "1.4.0",
+            "iip-design/wp-simple-nonce": "1.4.1",
             "iip-design/corona": "v2.10.2"
         },
     "extra": {
