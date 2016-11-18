@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e39a1be2af6bda8b48642101e9784874",
-    "content-hash": "38214ee7335a2f8774913aec0ea685c0",
+    "hash": "6da6de07b7d7448a5829cc8733909d7b",
+    "content-hash": "58b5f0ca9d040f7bbf59ba58dc34012c",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,7 +179,7 @@
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
@@ -799,8 +799,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "humanmade/s3-uploads": 20,
-        "iip-design/america-api-client": 20
+        "humanmade/s3-uploads": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
