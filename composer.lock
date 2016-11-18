@@ -183,7 +183,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "9507a6c1c88ec8d70501f356efef70bc5689af77"
+                "reference": "b400d59fb28712cf904ff58b5920e74c0d6dfb1f"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2016-11-18 21:11:07"
+            "time": "2016-11-18 22:33:24"
         },
         {
             "name": "iip-design/corona",
