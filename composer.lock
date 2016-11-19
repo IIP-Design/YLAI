@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6da6de07b7d7448a5829cc8733909d7b",
-    "content-hash": "58b5f0ca9d040f7bbf59ba58dc34012c",
+    "hash": "dc53ed38b1ba32d17a7f3179bf714903",
+    "content-hash": "1510a5e12bf85b64dbc7110332f0bbd8",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,11 +179,11 @@
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "299cdc2325f933d14b0d5add86723e25643eb432"
+                "reference": "91268a8d17ee996e88f71df0d13a14cf3dfc80e5"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2016-11-18 22:47:41"
+            "time": "2016-11-19 13:44:44"
         },
         {
             "name": "iip-design/corona",
