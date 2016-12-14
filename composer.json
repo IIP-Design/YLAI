@@ -87,7 +87,7 @@
             "wordpress": "4.6.1",
             "fancyguy/webroot-installer": "1.1.0",
             "koodimonni/composer-dropin-installer": "1.0",
-            "humanmade/s3-uploads": "dev-master",
+            "humanmade/s3-uploads": "dev-master#508239b",
             "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
             "wpackagist-plugin/mailchimp-for-wp": "4.0.3",
             "wpackagist-plugin/google-apps-login": "2.9.7",
@@ -107,7 +107,7 @@
             "usstatedept/formidable-mailchimp": "1.04.01",
             "usstatedept/formidable": "2.02.10",
             "iip-design/iip-chatroll": "1.0.0",
-            "iip-design/america-api-client": "1.0.4",
+            "iip-design/america-api-client": "dev-course-module-refactor",
             "usstatedept/ylai": "v2.7.3",
             "iip-design/wp-simple-nonce": "1.4.1",
             "iip-design/corona": "v2.10.2"
