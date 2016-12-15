@@ -108,7 +108,7 @@
             "usstatedept/formidable": "2.02.10",
             "iip-design/iip-chatroll": "1.0.0",
             "iip-design/america-api-client": "dev-course-module-refactor",
-            "usstatedept/ylai": "v2.7.3",
+            "usstatedept/ylai": "dev-pagination",
             "iip-design/wp-simple-nonce": "1.4.1",
             "iip-design/corona": "v2.10.2"
         },

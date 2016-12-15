@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06ac3134cd11117fce8a1014e80f148e",
-    "content-hash": "ec03b3426f9ee0ec1454aba7ad88ec2f",
+    "hash": "f80a2b3adc17fc84a1977810dc7cfd59",
+    "content-hash": "bc32ba24b1ffbe8bb61abc84afaf3f4f",
     "packages": [
         {
             "name": "composer/installers",
@@ -462,11 +462,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.7.3",
+            "version": "dev-pagination",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "84b71b518c3d37de52744def2c415642469286be"
+                "reference": "9c8d55763a9f1f698abd9e1699bff94123a4da1f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -476,7 +476,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-11-18 21:03:07"
+            "time": "2016-12-15 19:52:30"
         },
         {
             "name": "wordpress",
@@ -800,7 +800,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
-        "iip-design/america-api-client": 20
+        "iip-design/america-api-client": 20,
+        "usstatedept/ylai": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
