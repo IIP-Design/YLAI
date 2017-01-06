@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f80a2b3adc17fc84a1977810dc7cfd59",
-    "content-hash": "bc32ba24b1ffbe8bb61abc84afaf3f4f",
+    "hash": "79f08b8c7f64300bc18260728a95e732",
+    "content-hash": "d1640255a63bfc2dfe18dbcab6f2dd18",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,11 +179,11 @@
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "dev-course-module-refactor",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "5f37b18ed35aa2e4eda2ed29d4e77dea19709fe5"
+                "reference": "e40261d5cb98e3e3beba84a5cd579bfa38f6a08f"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -196,7 +196,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2016-12-14 20:48:46"
+            "time": "2017-01-06 19:41:39"
         },
         {
             "name": "iip-design/corona",
@@ -462,11 +462,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "dev-pagination",
+            "version": "v2.8.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "9c8d55763a9f1f698abd9e1699bff94123a4da1f"
+                "reference": "b9ad7b16aea762bd02f3369c5ed39dd5186a4612"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -476,7 +476,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2016-12-15 19:52:30"
+            "time": "2017-01-06 19:32:09"
         },
         {
             "name": "wordpress",
@@ -799,9 +799,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "humanmade/s3-uploads": 20,
-        "iip-design/america-api-client": 20,
-        "usstatedept/ylai": 20
+        "humanmade/s3-uploads": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
