@@ -79,7 +79,7 @@
             "type": "git",
             "url": "git@github.com:USStateDept/formidable-mailchimp.git"
         }
-
+        
     ],
     "require-dev": {
       "usstatedept/america-acf-local-json-manager": "1.0.0",
@@ -112,7 +112,7 @@
             "usstatedept/formidable-mailchimp": "1.04.01",
             "usstatedept/formidable": "2.02.10",
             "iip-design/iip-chatroll": "1.0.0",
-            "iip-design/america-api-client": "2.0.0",
+            "iip-design/america-api-client": "2.1.1",
             "usstatedept/ylai": "v2.8.2",
             "iip-design/wp-simple-nonce": "1.4.1",
             "iip-design/corona": "v2.10.2"

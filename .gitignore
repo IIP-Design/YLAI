@@ -14,8 +14,9 @@ wp-content/sunrise.php
 # wordpress-query-monitor
 wp-content/db.php
 
-# Composer
+# Package mamangers/editors
 vendor
+.vscode
 
 # OS generated files #
 ######################
