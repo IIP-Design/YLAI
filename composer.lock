@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4333d1b2e6a1e0d6a5ba4e117da7098f",
+    "content-hash": "86a1faa96c535e28bd639e91965c1fa8",
     "packages": [
         {
             "name": "composer/installers",
@@ -310,15 +310,15 @@
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "2.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "4ca97d1da933ae6acc79ca915f1b951e5a9a55bc"
+                "reference": "f4d52870f0b2d805cf1b5edb825b9f1aaa1b2b2e"
             },
             "require": {
                 "composer/installers": "~1.0",
-                "iip-design/courses-module": "1.0.0"
+                "iip-design/courses-module": "dev-master"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -328,7 +328,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2017-03-13T21:56:54+00:00"
+            "time": "2017-03-15 15:45:40"
         },
         {
             "name": "iip-design/corona",
@@ -350,11 +350,11 @@
         },
         {
             "name": "iip-design/courses-module",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/Courses-Module.git",
-                "reference": "814e2f5f4c7838131d70f250d13d034413ee6726"
+                "reference": "1eddfdcee288b47bd70ff044a1c2468c545699e8"
             },
             "type": "library",
             "authors": [
@@ -364,7 +364,7 @@
                 }
             ],
             "description": "\"Frontend view code of the course module\"",
-            "time": "2017-03-13T23:14:06+00:00"
+            "time": "2017-03-15 14:27:56"
         },
         {
             "name": "iip-design/iip-chatroll",
@@ -1826,7 +1826,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "humanmade/s3-uploads": 20
+        "humanmade/s3-uploads": 20,
+        "iip-design/america-api-client": 20,
+        "iip-design/courses-module": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
