@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "86a1faa96c535e28bd639e91965c1fa8",
+    "content-hash": "d1a4c99a6cfe7b470cf1dd033887c602",
     "packages": [
         {
             "name": "composer/installers",
@@ -310,11 +310,11 @@
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "dev-master",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "f4d52870f0b2d805cf1b5edb825b9f1aaa1b2b2e"
+                "reference": "c2379d2fcd1840e465f3b874905e2232a17cb167"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -328,7 +328,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2017-03-15 15:45:40"
+            "time": "2017-03-16T19:29:21+00:00"
         },
         {
             "name": "iip-design/corona",
@@ -1827,7 +1827,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
-        "iip-design/america-api-client": 20,
         "iip-design/courses-module": 20
     },
     "prefer-stable": false,
