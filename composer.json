@@ -57,7 +57,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:IIP-Design/iip-chatroll.git"
+            "url": "git@github.com:IIP-Design/iip-interactive.git"
         },
         {
             "type": "git",
@@ -118,7 +118,7 @@
         "usstatedept/america-screendoor": "1.1.9.1",
         "usstatedept/formidable-mailchimp": "1.04.01",
         "usstatedept/formidable": "2.02.10",
-        "iip-design/iip-chatroll": "1.0.0",
+        "iip-design/iip-interactive": "2.0.0",
         "iip-design/america-api-client": "2.1.3",
         "iip-design/courses-module": "dev-master",
         "usstatedept/ylai": "v2.8.2",
