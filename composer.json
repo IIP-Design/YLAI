@@ -73,6 +73,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:humanmade/S3-Uploads.git"
         },
         {
@@ -119,7 +123,8 @@
         "iip-design/courses-module": "dev-master",
         "usstatedept/ylai": "v2.8.2",
         "iip-design/wp-simple-nonce": "1.4.1",
-        "iip-design/corona": "v2.10.2"
+        "iip-design/corona": "v2.10.2",
+        "iip-design/wp-elasticsearch-feeder": "dev-master"
         },
     "extra": {
         "dropin-paths": {

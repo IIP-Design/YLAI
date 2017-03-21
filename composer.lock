@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "52a6cf0b630c89cf0bf8b87e6613e44c",
+    "content-hash": "33929d9f3788319e2ab225216cb2adf5",
     "packages": [
         {
             "name": "composer/installers",
@@ -212,16 +212,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "0d6c7ca039329247e4f0f8f8f6506810e8248855"
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/0d6c7ca039329247e4f0f8f8f6506810e8248855",
-                "reference": "0d6c7ca039329247e4f0f8f8f6506810e8248855",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
                 "shasum": ""
             },
             "require": {
@@ -273,7 +273,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-02-27T10:51:17+00:00"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -386,6 +386,27 @@
             ],
             "description": "Chatroll Shortcode for IIP Properties",
             "time": "2016-07-18T19:27:50+00:00"
+        },
+        {
+            "name": "iip-design/wp-elasticsearch-feeder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
+                "reference": "af6ab3a20f16b9c9d9dece01b33fc904c15e3a9a"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "orelusm@america.gov"
+                }
+            ],
+            "description": "Syncs content to ElasticSearch",
+            "time": "2017-03-21 13:57:36"
         },
         {
             "name": "iip-design/wp-simple-nonce",
@@ -1829,7 +1850,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
-        "iip-design/courses-module": 20
+        "iip-design/courses-module": 20,
+        "iip-design/wp-elasticsearch-feeder": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
