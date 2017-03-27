@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96343f610c8ddad093c6e57b67726431",
+    "content-hash": "6ea0b37d1ae2a4e49113f7694cdba088",
     "packages": [
         {
             "name": "composer/installers",
@@ -393,7 +393,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
-                "reference": "af6ab3a20f16b9c9d9dece01b33fc904c15e3a9a"
+                "reference": "d0cae77daff7a4d070a519d240dbb46fc6aa4d14"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -406,7 +406,7 @@
                 }
             ],
             "description": "Syncs content to ElasticSearch",
-            "time": "2017-03-21 13:57:36"
+            "time": "2017-03-27 15:06:22"
         },
         {
             "name": "iip-design/wp-simple-nonce",
@@ -1530,10 +1530,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.6.1",
+            "version": "4.7.3",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
