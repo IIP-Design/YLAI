@@ -124,8 +124,9 @@
         "usstatedept/ylai": "v2.8.2",
         "iip-design/wp-simple-nonce": "1.4.1",
         "iip-design/corona": "v2.10.2",
-        "iip-design/wp-elasticsearch-feeder": "dev-master"
-        },
+        "iip-design/wp-elasticsearch-feeder": "dev-master",
+        "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7"
+    },
     "extra": {
         "dropin-paths": {
             "wp-content/": [

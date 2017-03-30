@@ -1,4 +1,7 @@
 <?php
+// autoload vendor classes
+require_once __DIR__ . '/vendor/autoload.php';
+
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
 define('DB_NAME', getenv('YLAI_DB_NAME'));
