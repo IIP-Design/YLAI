@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "264d80b27a96e64cc8e29135b49f7fa2",
+    "content-hash": "e67bc07730d81177856207d6b0aa21ef",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.28.1",
+            "version": "3.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "374225ec7e4ca2cc3edab2cd54b99ab383bfcbc6"
+                "reference": "7422680d442328a4d3bc3888546e5a1309d74ef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/374225ec7e4ca2cc3edab2cd54b99ab383bfcbc6",
-                "reference": "374225ec7e4ca2cc3edab2cd54b99ab383bfcbc6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7422680d442328a4d3bc3888546e5a1309d74ef7",
+                "reference": "7422680d442328a4d3bc3888546e5a1309d74ef7",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-05-22T22:26:55+00:00"
+            "time": "2017-05-23T19:57:12+00:00"
         },
         {
             "name": "composer/installers",
@@ -1665,11 +1665,11 @@
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "1.2",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "b2d085fbaf396add195ee9d8c3ec9cf2e14e2ddd"
+                "reference": "24b0a041067dc58193aa8b7464ceabc1c67486ee"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1684,7 +1684,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-            "time": "2017-03-30T21:46:30+00:00"
+            "time": "2017-05-23T18:31:05+00:00"
         },
         {
             "name": "usstatedept/formidable",
