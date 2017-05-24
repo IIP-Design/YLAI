@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "e67bc07730d81177856207d6b0aa21ef",
+=======
+    "content-hash": "05bdc1106f6c1edf9fa4bd06db284d1e",
+>>>>>>> qa_formidable
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -561,6 +565,27 @@
             "time": "2017-03-15 14:27:56"
         },
         {
+            "name": "iip-design/formidable-bottombar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/formidable-bottombar.git",
+                "reference": "70a2cb3d1906084084c233025e2f108920adf5d0"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "design@america.gov"
+                }
+            ],
+            "description": "Custom WordPress shortcode for including a Formidable email form overlay at the bottom of a page",
+            "time": "2017-03-31 16:18:00"
+        },
+        {
             "name": "iip-design/iip-interactive",
             "version": "2.0.0",
             "source": {
@@ -587,7 +612,11 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
+<<<<<<< HEAD
                 "reference": "c7c67b00588d58788cb3fb5528bab0a429e1e568"
+=======
+                "reference": "96f061cea4a738ce2b385845340f9c842fe56ba8"
+>>>>>>> qa_formidable
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -600,7 +629,11 @@
                 }
             ],
             "description": "Syncs content to ElasticSearch",
+<<<<<<< HEAD
             "time": "2017-05-02 19:50:08"
+=======
+            "time": "2017-03-31 15:46:16"
+>>>>>>> qa_formidable
         },
         {
             "name": "iip-design/wp-simple-nonce",
@@ -1517,6 +1550,7 @@
         },
         {
             "name": "symfony/translation",
+<<<<<<< HEAD
             "version": "v3.2.8",
             "source": {
                 "type": "git",
@@ -1527,6 +1561,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/f4a04d2df710f81515df576b2de06bdeee518b83",
                 "reference": "f4a04d2df710f81515df576b2de06bdeee518b83",
+=======
+            "version": "v3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "c740eee70783d2af4d3d6b70d5146f209e6b4d13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/c740eee70783d2af4d3d6b70d5146f209e6b4d13",
+                "reference": "c740eee70783d2af4d3d6b70d5146f209e6b4d13",
+>>>>>>> qa_formidable
                 "shasum": ""
             },
             "require": {
@@ -1577,7 +1623,11 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2017-04-12T14:13:17+00:00"
+=======
+            "time": "2017-03-21T21:44:32+00:00"
+>>>>>>> qa_formidable
         },
         {
             "name": "usstatedept/america-call-to-action",
@@ -1760,11 +1810,19 @@
         },
         {
             "name": "usstatedept/ylai",
+<<<<<<< HEAD
             "version": "v2.9.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
                 "reference": "5c6b9dc44756407c34afcd5a78a3f5c31e45ff43"
+=======
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/ylai-theme.git",
+                "reference": "40589de1f68d3d31c452b0af938cfb6e30f94256"
+>>>>>>> qa_formidable
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -1774,7 +1832,11 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
+<<<<<<< HEAD
             "time": "2017-05-23T18:26:47+00:00"
+=======
+            "time": "2017-04-05 18:02:14"
+>>>>>>> qa_formidable
         },
         {
             "name": "wordpress",
@@ -2098,7 +2160,9 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
+        "iip-design/formidable-bottombar": 20,
         "iip-design/courses-module": 20,
+        "usstatedept/ylai": 20,
         "iip-design/wp-elasticsearch-feeder": 20
     },
     "prefer-stable": false,
