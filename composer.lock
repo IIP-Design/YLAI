@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c986074b1abd8c7e3166a9bc4e01904",
+    "content-hash": "4e93b6d6769f513a4f04be438cf30e67",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.28.5",
+            "version": "3.28.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c0dfbcb1111104bbb970447484910611a4305b76"
+                "reference": "9c33b9dff5848adc25199f88487b1927edcfe074"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c0dfbcb1111104bbb970447484910611a4305b76",
-                "reference": "c0dfbcb1111104bbb970447484910611a4305b76",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9c33b9dff5848adc25199f88487b1927edcfe074",
+                "reference": "9c33b9dff5848adc25199f88487b1927edcfe074",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-05-30T21:16:11+00:00"
+            "time": "2017-05-31T19:00:01+00:00"
         },
         {
             "name": "composer/installers",
@@ -1624,11 +1624,11 @@
         },
         {
             "name": "usstatedept/america-flexible-sidebar",
-            "version": "3.1.1",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Flexibile-Sidebar.git",
-                "reference": "9a92cdb4ffebccadf882c937cd18abcd6c47ea57"
+                "reference": "09a14dec17a292596056ff0676cdf553d1db84e8"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1641,7 +1641,7 @@
                 }
             ],
             "description": "Adds a customizable field to post and page edit screens that overwrites the global sidebar(s)",
-            "time": "2016-07-20T13:04:27+00:00"
+            "time": "2017-05-31T20:02:41+00:00"
         },
         {
             "name": "usstatedept/america-post-formats",
@@ -1782,11 +1782,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.9.2",
+            "version": "v2.9.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "64397952ddb3f61d61100e6891d05905a6fd82bb"
+                "reference": "8b54e8f06e5c77d763796abdfc85c040e36b4b59"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -1796,7 +1796,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2017-05-31T17:47:02+00:00"
+            "time": "2017-05-31T20:19:57+00:00"
         },
         {
             "name": "wordpress",
