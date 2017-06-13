@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "775aefcf0993147233d774d4a1c6e73c",
+    "content-hash": "435d0d65b18675ecaea6bde19a917bb7",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.29.2",
+            "version": "3.29.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1f19f74913a31fac8e98c24cef26040a16c88a33"
+                "reference": "f375f08b77da1a1dbf68e4a0384d65e7d9018639"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1f19f74913a31fac8e98c24cef26040a16c88a33",
-                "reference": "1f19f74913a31fac8e98c24cef26040a16c88a33",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f375f08b77da1a1dbf68e4a0384d65e7d9018639",
+                "reference": "f375f08b77da1a1dbf68e4a0384d65e7d9018639",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-06-09T18:57:25+00:00"
+            "time": "2017-06-12T23:32:58+00:00"
         },
         {
             "name": "composer/installers",
@@ -608,7 +608,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
-                "reference": "c7c67b00588d58788cb3fb5528bab0a429e1e568"
+                "reference": "6134eda34d56cae63d03581e169a62f3aa002ad4"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -621,7 +621,7 @@
                 }
             ],
             "description": "Syncs content to ElasticSearch",
-            "time": "2017-05-02 19:50:08"
+            "time": "2017-06-13 15:42:08"
         },
         {
             "name": "iip-design/wp-simple-nonce",
@@ -1782,11 +1782,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.9.4",
+            "version": "v2.9.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "ab06228ab66972d82c3fcc1f302726c620cc8f5a"
+                "reference": "a9399ddd7eb64fac3e8d258389805ab621ee3210"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -1796,7 +1796,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2017-06-12T15:34:03+00:00"
+            "time": "2017-06-13T15:52:17+00:00"
         },
         {
             "name": "wordpress",
