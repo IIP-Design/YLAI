@@ -94,6 +94,10 @@
         {
             "type": "git",
             "url": "git@github.com:IIP-Design/js_composer.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/wordpress-pdcrm.git"
         }
     ],
     "require-dev": {
@@ -134,7 +138,8 @@
         "iip-design/wp-simple-nonce": "1.4.1",
         "iip-design/corona": "v2.10.2",
         "iip-design/wp-elasticsearch-feeder": "dev-master",
-        "iip-design/js_composer": "4.11.2"
+        "iip-design/js_composer": "4.11.2",
+        "usstatedept/wordpress-pdcrm": "dev-master"
     },
     "extra": {
         "dropin-paths": {
