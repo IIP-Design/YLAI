@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9dc1730f55b6a7f64ba3b4a0c68670c9",
+    "content-hash": "349239683064da81838153ac09665c40",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.34.0",
+            "version": "3.34.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "df7ddca6872048cc91315c2b4fdb9a57d5fceb84"
+                "reference": "eee45c7189f6fe0b70aac86495718ccfdc067495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/df7ddca6872048cc91315c2b4fdb9a57d5fceb84",
-                "reference": "df7ddca6872048cc91315c2b4fdb9a57d5fceb84",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/eee45c7189f6fe0b70aac86495718ccfdc067495",
+                "reference": "eee45c7189f6fe0b70aac86495718ccfdc067495",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-08-22T18:32:28+00:00"
+            "time": "2017-08-24T18:09:26+00:00"
         },
         {
             "name": "composer/installers",
@@ -507,11 +507,11 @@
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "ac60136efe4b0d5665773ab974f3f805fc491673"
+                "reference": "24e75e5ced7212513364a949d0816e10e3470137"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -525,7 +525,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2017-08-22T20:46:44+00:00"
+            "time": "2017-08-24T21:14:02+00:00"
         },
         {
             "name": "iip-design/corona",
@@ -1832,11 +1832,11 @@
         },
         {
             "name": "usstatedept/ylai",
-            "version": "v2.9.8",
+            "version": "v2.9.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ylai-theme.git",
-                "reference": "fff5e4a237ebd38b4d837e0fcd807b9dabf7c494"
+                "reference": "bd71082dda99a8b1ac45b8ed136cd2842973e8f7"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -1846,7 +1846,7 @@
                 "MIT"
             ],
             "description": "YLAI's theme, a child of Corona",
-            "time": "2017-07-26T20:00:15+00:00"
+            "time": "2017-08-24T15:07:31+00:00"
         },
         {
             "name": "wordpress",
