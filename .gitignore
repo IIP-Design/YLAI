@@ -16,6 +16,7 @@ wp-content/db.php
 
 # Package mamangers/editors
 vendor
+composer.lock
 .vscode
 
 # OS generated files #
