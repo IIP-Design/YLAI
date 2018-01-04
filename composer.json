@@ -37,7 +37,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/ylai-theme.git"
+            "url": "git@github.com:IIP-Design/ylai-theme.git"
         },
         {
             "type": "git",
@@ -122,7 +122,7 @@
         "iip-design/iip-interactive": "2.0.0",
         "iip-design/america-api-client": "2.2.6",
         "iip-design/courses-module": "v2.0.4",
-        "usstatedept/ylai": "v2.10.0",
+        "iip-design/ylai": "v2.10.1",
         "iip-design/wp-simple-nonce": "1.4.1",
         "iip-design/corona": "v2.10.2",
         "iip-design/wp-elasticsearch-feeder": "dev-master",
