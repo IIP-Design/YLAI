@@ -90,6 +90,10 @@
         {
             "type": "git",
             "url": "git@github.com:IIP-Design/wordpress-pdcrm.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
         }
     ],
     "require-dev": {
@@ -127,7 +131,8 @@
         "iip-design/corona": "v2.12.0",
         "iip-design/wp-elasticsearch-feeder": "1.0.0",
         "iip-design/js_composer": "4.11.2",
-        "iip-design/wordpress-pdcrm": "dev-master"
+        "iip-design/wordpress-pdcrm": "dev-master",
+        "iip-design/wp-hide-login-form": "1.0.1"
     },
     "extra": {
         "dropin-paths": {
