@@ -90,6 +90,10 @@
         {
             "type": "git",
             "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/iip-map.git"
         }
     ],
     "require-dev": {
@@ -120,6 +124,7 @@
         "iip-design/formidable": "3.0.05",
         "iip-design/formidable-pro": "3.0.05",
         "iip-design/iip-interactive": "2.1.2",
+        "iip-design/iip-map": "v1.0.2",
         "iip-design/america-api-client": "2.2.10",
         "iip-design/ylai": "v2.10.3",
         "iip-design/wp-simple-nonce": "1.4.1",
