@@ -48,6 +48,9 @@ if ( isset( $_SERVER['YLAI_S3_UPLOADS_SECRET'] ) ) {
 if ( isset( $_SERVER['YLAI_S3_UPLOADS_REGION'] ) ) {
   define('S3_UPLOADS_REGION', getenv('YLAI_S3_UPLOADS_REGION'));
 }
+if ( isset( $_SERVER['YLAI_S3_UPLOADS_BUCKET_URL'] ) ) {
+  define('S3_UPLOADS_BUCKET_URL', getenv('YLAI_S3_UPLOADS_BUCKET_URL'));
+}
 
 
 $table_prefix = 'wp_';
