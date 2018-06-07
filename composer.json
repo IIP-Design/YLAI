@@ -5,10 +5,10 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
-                "version": "4.9.4",
+                "version": "4.9.6",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.9.4.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.9.6.zip"
                 },
                 "require" : {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -103,7 +103,7 @@
       "wpackagist-plugin/query-monitor": "2.11.4"
     },
     "require": {
-        "wordpress": "4.9.4",
+        "wordpress": "4.9.6",
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "*",
         "humanmade/s3-uploads": "dev-master",
@@ -124,7 +124,7 @@
         "iip-design/formidable": "3.0.05",
         "iip-design/formidable-pro": "3.0.05",
         "iip-design/iip-interactive": "2.1.2",
-        "iip-design/iip-map": "v1.0.3",
+        "iip-design/iip-map": "v1.1.0",
         "iip-design/america-api-client": "2.2.10",
         "iip-design/ylai": "v2.10.3",
         "iip-design/wp-simple-nonce": "1.4.1",
