@@ -112,7 +112,7 @@
     "koodimonni/composer-dropin-installer": "*",
     "humanmade/s3-uploads": "dev-master",
     "iip-design/corona": "v2.12.1",
-    "iip-design/ylai": "v2.10.7",
+    "iip-design/ylai": "dev-master",
     "iip-design/america-api-client": "2.2.13",
     "iip-design/america-call-to-action": "2.0.1",
     "iip-design/america-flexible-sidebar": "3.2.1",
