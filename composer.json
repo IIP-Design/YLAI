@@ -126,7 +126,7 @@
     "iip-design/js_composer": "5.6",
     "iip-design/wordpress-pdcrm": "dev-master",
     "iip-design/wordpress-seo-premium": "8.0.0",
-    "iip-design/wp-elasticsearch-feeder": "2.4.0",
+    "iip-design/wp-elasticsearch-feeder": "dev-master",
     "iip-design/wp-hide-login-form": "1.0.1",
     "iip-design/wp-simple-nonce": "1.4.1",
     "wpackagist-plugin/disable-comments": "1.8.0",
