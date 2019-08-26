@@ -5,10 +5,10 @@
       "package": {
         "name": "wordpress",
         "type": "webroot",
-        "version": "4.9.9",
+        "version": "5.2.2",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/4.9.9.zip"
+          "url": "https://github.com/WordPress/WordPress/archive/5.2.2.zip"
         },
         "require": {
           "fancyguy/webroot-installer": "1.1.0"
@@ -97,17 +97,17 @@
     },
     {
       "type": "git",
-      "url": "git@github.com:IIP-Design/wordpress-seo-premium"
+      "url": "git@github.com:IIP-Design/wordpress-seo-premium.git"
     }
   ],
   "require-dev": {
     "iip-design/america-acf-local-json-manager": "1.0.0",
     "wpackagist-plugin/debug-bar": "1.0",
     "wpackagist-plugin/debug-bar-actions-and-filters-addon": "1.5.4",
-    "wpackagist-plugin/query-monitor": "3.2.2"
+    "wpackagist-plugin/query-monitor": "3.3.7"
   },
   "require": {
-    "wordpress": "4.9.9",
+    "wordpress": "5.2.2",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "*",
     "humanmade/s3-uploads": "dev-master",
@@ -119,26 +119,26 @@
     "iip-design/america-post-formats": "1.3.1",
     "iip-design/america-related-content": "1.0.4",
     "iip-design/america-screendoor": "1.5.0",
-    "iip-design/formidable": "3.05",
-    "iip-design/formidable-pro": "3.05",
+    "iip-design/formidable": "4.02.01",
+    "iip-design/formidable-pro": "4.02.01",
     "iip-design/iip-interactive": "2.1.2",
-    "iip-design/iip-map": "v1.1.4",
-    "iip-design/js_composer": "5.6",
+    "iip-design/iip-map": "v2.0.0",
+    "iip-design/js_composer": "6.0.5",
     "iip-design/wordpress-pdcrm": "dev-master",
-    "iip-design/wordpress-seo-premium": "8.0.0",
-    "iip-design/wp-elasticsearch-feeder": "2.4.1",
+    "iip-design/wordpress-seo-premium": "11.9.0",
+    "iip-design/wp-elasticsearch-feeder": "2.5.0",
     "iip-design/wp-hide-login-form": "1.0.1",
     "iip-design/wp-simple-nonce": "1.4.1",
-    "wpackagist-plugin/disable-comments": "1.8.0",
-    "wpackagist-plugin/duracelltomi-google-tag-manager": "1.9",
-    "wpackagist-plugin/ewww-image-optimizer": "4.5.3",
+    "wpackagist-plugin/disable-comments": "1.10.2",
+    "wpackagist-plugin/duracelltomi-google-tag-manager": "1.10.1",
+    "wpackagist-plugin/ewww-image-optimizer": "4.9.2",
     "wpackagist-plugin/fb-instant-articles": "4.2.0",
     "wpackagist-plugin/google-apps-login": "3.2",
     "wpackagist-plugin/interact-quiz-embed": "3.0.7",
-    "wpackagist-plugin/redirection": "3.6.3",
+    "wpackagist-plugin/redirection": "4.3.3",
     "wpackagist-plugin/regenerate-thumbnails": "3.1.1",
     "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
-    "wpackagist-plugin/wp-ses": "0.8.2"
+    "wpackagist-plugin/wp-ses": "1.2.1"
   },
   "extra": {
     "dropin-paths": {
