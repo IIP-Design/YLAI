@@ -110,7 +110,7 @@
     "wordpress/wordpress": "5.5",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "*",
-    "humanmade/s3-uploads": "dev-master",
+    "humanmade/s3-uploads": "2.2.2",
     "iip-design/corona": "v2.12.2",
     "iip-design/ylai": "v2.10.9",
     "iip-design/america-api-client": "2.2.14",
